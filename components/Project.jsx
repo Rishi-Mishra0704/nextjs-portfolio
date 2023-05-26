@@ -25,7 +25,7 @@ const Project = () => {
         renderPrevButton={() => prevButton}
         renderNextButton={() => nextButton}
       >
-        <div className="grid grid-cols-2">
+        <div className="grid md:grid-cols-2">
           <div className="">
             <p className="text-xl tracking-widest text-center uppercase text-[#1f2937] dark:text-[#ecf0f3]">
               Conference Page
@@ -48,8 +48,8 @@ const Project = () => {
             <Image src={conference} />
           </div>
           <div className="mb-10">
-            <button className="h-10 w-40 mx-1">Live demo</button>
-            <button className="h-10 w-40 mx-1">Source Code</button>
+            <button className="h-10 w-40 mx-1 my-8">Live demo</button>
+            <button className="h-10 w-40 mx-1 my-8">Source Code</button>
           </div>
         </div>
 
@@ -75,8 +75,8 @@ const Project = () => {
             <Image src={expense} />
           </div>
           <div>
-            <button className="h-10 w-40 mx-1">Live demo</button>
-            <button className="h-10 w-40 mx-1">Source Code</button>
+            <button className="h-10 w-40 mx-1 my-8">Live demo</button>
+            <button className="h-10 w-40 mx-1 my-8">Source Code</button>
           </div>
         </div>
 
@@ -103,8 +103,8 @@ const Project = () => {
             <Image src={math} />
           </div>
           <div>
-            <button className="h-10 w-40 mx-1">Live demo</button>
-            <button className="h-10 w-40 mx-1">Source Code</button>
+            <button className="h-10 w-40 mx-1 my-8">Live demo</button>
+            <button className="h-10 w-40 mx-1 my-8">Source Code</button>
           </div>
         </div>
 
@@ -128,8 +128,8 @@ const Project = () => {
             <Image src={bookStore} />
           </div>
           <div>
-            <button className="h-10 w-40 mx-1">Live demo</button>
-            <button className="h-10 w-40 mx-1">Source Code</button>
+            <button className="h-10 w-40 mx-1 my-8">Live demo</button>
+            <button className="h-10 w-40 mx-1 my-8">Source Code</button>
           </div>
         </div>
       </AliceCarousel>
