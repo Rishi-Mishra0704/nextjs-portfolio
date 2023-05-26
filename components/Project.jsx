@@ -7,12 +7,12 @@ import expense from "../public/assets/expense.png";
 import conference from "../public/assets/conference.png";
 import Image from "next/legacy/image";
 const Project = () => {
-  const nextButton = <button className="next-btn w-40 h-10 mx-10">Next</button>;
-  const prevButton = <button className="prev-btn w-40 h-10 mx-10">Prev</button>;
+  const nextButton = <button className="next-btn ml-1 w-40 h-10 ">Next</button>;
+  const prevButton = <button className="prev-btn mr-1 w-40 h-10">Prev</button>;
   return (
     <section
       id="projects"
-      className="w-full dark:bg-[#1f2937] p-3 md:p-5 lg:p-10 rounded-[10px] shadow-md shadow-gray-400 dark:shadow-teal-500"
+      className="sm:w-[70%] md:w-[80%] dark:bg-[#1f2937] p-3 rounded-[10px] shadow-md shadow-gray-400 dark:shadow-teal-500 mx-auto my-16"
     >
       <div className="mb-10">
         <p className="text-2xl tracking-widest text-center uppercase text-[#5651e5] dark:text-teal-400">
@@ -25,7 +25,7 @@ const Project = () => {
         renderPrevButton={() => prevButton}
         renderNextButton={() => nextButton}
       >
-        <div className="grid md:grid-cols-2">
+        <div className="grid grid-cols-2">
           <div className="">
             <p className="text-xl tracking-widest text-center uppercase text-[#1f2937] dark:text-[#ecf0f3]">
               Conference Page
@@ -44,7 +44,7 @@ const Project = () => {
               <li>4. GIT/GITHUB</li>
             </ul>
           </div>
-          <div className="border-solid border-2 dark:border-teal-400 px-1 py-0.5 m-3">
+          <div className="border-solid border-2 dark:border-teal-400 px-1 py-0.5">
             <Image src={conference} />
           </div>
           <div className="mb-10">

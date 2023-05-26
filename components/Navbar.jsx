@@ -104,7 +104,7 @@ const Navbar = () => {
                 Contact me
               </li>
             </Link>
-            <div className="m-5">
+            <div className="m-5 mr-100">
               <button onClick={() => handleDarkmode()}>
                 {darkmode ? (
                   <FaSun className={darkmode && " text-orange-500 bg-[#1f2937]" } size={24} />
