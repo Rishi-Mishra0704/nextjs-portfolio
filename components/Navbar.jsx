@@ -162,21 +162,21 @@ const Navbar = () => {
           <div className=" p-4 flex flex-col font-semibold">
             <ul className="uppercase">
               <Link href="/" key="home">
-                <li className="m-5 text-sm uppercase hover:border-b ">Home</li>
+                <li onClick={handleNav} className="m-5 text-sm uppercase hover:border-b ">Home</li>
               </Link>
               <Link href="/#about" key="about">
-                <li className="m-5 text-sm uppercase hover:border-b ">About</li>
+                <li onClick={handleNav} className="m-5 text-sm uppercase hover:border-b ">About</li>
               </Link>
               <Link href="/#skills" key="skills">
-                <li className="m-5 text-sm uppercase hover:border-b ">
+                <li onClick={handleNav} className="m-5 text-sm uppercase hover:border-b ">
                   Skills
                 </li>
               </Link>
               <Link href="/#projects" key="projects">
-                <li className="m-5 text-sm uppercase hover:border-b ">Work</li>
+                <li onClick={handleNav} className="m-5 text-sm uppercase hover:border-b ">Work</li>
               </Link>
               <Link href="/#contact" key="contact">
-                <li className="m-5 text-sm uppercase hover:border-b ">
+                <li onClick={handleNav} className="m-5 text-sm uppercase hover:border-b ">
                   Contact me
                 </li>
               </Link>
