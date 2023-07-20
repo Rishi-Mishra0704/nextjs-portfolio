@@ -1,7 +1,7 @@
 import React from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-import bookStore from "../public/assets/bookstore.png";
+import budget from "../public/assets/budget.png";
 import math from "../public/assets/math.png";
 import expense from "../public/assets/expense.png";
 import conference from "../public/assets/conference.png";
@@ -111,21 +111,23 @@ const Project = () => {
         <div className="grid md:grid-cols-2">
           <div className="">
             <p className="text-xl tracking-widest text-center uppercase text-[#1f2937] dark:text-[#ecf0f3]">
-              Bookstore CMS
+              Your Budget Buddy
             </p>
             <p className="text-l tracking-widest text-center uppercase text-[#1f2937] dark:text-[#ecf0f3]">
-              A simple React with Redux book store web app, where you can add
-              and remove books, update reading progress and list by categories
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
+              eius vero quas iure quidem harum sint, doloribus magni dolores
+              illum!
             </p>
             <ul className="mt-20">
-              <li>1. REACT</li>
-              <li>2. CSS MODULES</li>
-              <li>3. REDUX</li>
+              <li>1. Ruby on rails</li>
+              <li>2. Bootsrap</li>
+              <li>3. Postgres</li>
               <li>4. GIT/GITHUB</li>
+              <li>5. Devise</li>
             </ul>
           </div>
           <div className="border-solid border-2 dark:border-teal-400 px-1 py-0.5 m-3">
-            <Image src={bookStore} />
+            <Image src={budget} />
           </div>
           <div>
             <button className="h-10 w-40 mx-1 my-8">Live demo</button>
