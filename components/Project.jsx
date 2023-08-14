@@ -1,11 +1,12 @@
 import React from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
+import Image from "next/legacy/image";
 import budget from "../public/assets/budget.png";
-import math from "../public/assets/math.png";
+import carhub from "../public/assets/carhub.png";
 import expense from "../public/assets/expense.png";
 import conference from "../public/assets/conference.png";
-import Image from "next/legacy/image";
+
 const Project = () => {
   const nextButton = <button className="next-btn ml-1 w-40 h-10 ">Next</button>;
   const prevButton = <button className="prev-btn mr-1 w-40 h-10">Prev</button>;
@@ -48,8 +49,12 @@ const Project = () => {
             <Image src={conference} />
           </div>
           <div className="mb-10">
-            <button className="h-10 w-40 mx-1 my-8">Live demo</button>
-            <button className="h-10 w-40 mx-1 my-8">Source Code</button>
+            <a href="https://rishi-mishra0704.github.io/Capstone/index.html">
+              <button className="h-10 w-40 mx-1 my-8">Live demo</button>
+            </a>
+            <a href="https://github.com/Rishi-Mishra0704/Capstone">
+              <button className="h-10 w-40 mx-1 my-8">Source Code</button>
+            </a>
           </div>
         </div>
 
@@ -75,36 +80,44 @@ const Project = () => {
             <Image src={expense} />
           </div>
           <div>
-            <button className="h-10 w-40 mx-1 my-8">Live demo</button>
-            <button className="h-10 w-40 mx-1 my-8">Source Code</button>
+            <a href="https://expense-racker.onrender.com/">
+              <button className="h-10 w-40 mx-1 my-8">Live demo</button>
+            </a>
+            <a href="https://github.com/Rishi-Mishra0704/react-project">
+              <button className="h-10 w-40 mx-1 my-8">Source Code</button>
+            </a>
           </div>
         </div>
 
         <div className="grid md:grid-cols-2">
           <div className="">
             <p className="text-xl tracking-widest text-center uppercase text-[#1f2937] dark:text-[#ecf0f3]">
-              Math Magician
+              CarHub
             </p>
             <p className="text-l tracking-widest text-center uppercase text-[#1f2937] dark:text-[#ecf0f3]">
-              The site was built with React and includes a homepage, a
-              calculator page, and a quotes page, all of which are easily
-              accessible using React Router. With its efficient routing system
-              and use of React, this site provides a seamless user experience
-              for navigating between different pages and features.
+              The site was built with Nextjs and tailwindcss. It is a car
+              dealership site where you can see all the cars available and their
+              details. It has a special feature namely search bar to help you
+              find your car easily. It was built to test my skills in Nextjs and
+              tailwindcss
             </p>
             <ul className="mt-20">
-              <li>1. REACT</li>
-              <li>2. CSS MODULES</li>
+              <li>1. Nextjs</li>
+              <li>2. TailwindCSS</li>
               <li>3. REDUX</li>
               <li>4. GIT/GITHUB</li>
             </ul>
           </div>
           <div className="border-solid border-2 dark:border-teal-400 px-1 py-0.5 m-3">
-            <Image src={math} />
+            <Image src={carhub} />
           </div>
           <div>
-            <button className="h-10 w-40 mx-1 my-8">Live demo</button>
-            <button className="h-10 w-40 mx-1 my-8">Source Code</button>
+            <a href="https://carhub-ochre.vercel.app/">
+              <button className="h-10 w-40 mx-1 my-8">Live demo</button>
+            </a>
+            <a href="https://github.com/Rishi-Mishra0704/Carhub">
+              <button className="h-10 w-40 mx-1 my-8">Source Code</button>
+            </a>
           </div>
         </div>
 
@@ -114,9 +127,12 @@ const Project = () => {
               Your Budget Buddy
             </p>
             <p className="text-l tracking-widest text-center uppercase text-[#1f2937] dark:text-[#ecf0f3]">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
-              eius vero quas iure quidem harum sint, doloribus magni dolores
-              illum!
+              This is a budget tracker that helps you keep track of all your
+              expenses and income. This was primarily built on ruby on rails and
+              bootstrap . It has a special feature namely devise to help you
+              login and logout of your account. The database used was postgres
+              to store all the data. It was built to test my skills in ruby on
+              rails and bootstrap.
             </p>
             <ul className="mt-20">
               <li>1. Ruby on rails</li>
@@ -130,8 +146,12 @@ const Project = () => {
             <Image src={budget} />
           </div>
           <div>
-            <button className="h-10 w-40 mx-1 my-8">Live demo</button>
-            <button className="h-10 w-40 mx-1 my-8">Source Code</button>
+            <a href="https://budgetbuddy-vtim.onrender.com">
+              <button className="h-10 w-40 mx-1 my-8">Live demo</button>
+            </a>
+            <a href="https://github.com/Rishi-Mishra0704/YourBudgetBuddy">
+              <button className="h-10 w-40 mx-1 my-8">Source Code</button>
+            </a>
           </div>
         </div>
       </AliceCarousel>
