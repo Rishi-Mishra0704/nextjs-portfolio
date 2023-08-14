@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import aboutImg from "../public/assets/about.jpg";
+
 const About = () => {
   return (
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
@@ -39,7 +41,7 @@ const About = () => {
         </div>
         <div className="hidden sm:hidden md:block lg:block">
           <Image
-            src="/../public/assets/about.jpg"
+            src={aboutImg}
             width="800" 
             height="800"
             alt="/"

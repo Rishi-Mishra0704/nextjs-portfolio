@@ -10,6 +10,7 @@ import {
   FaSun,
 } from "react-icons/fa";
 import { useRouter } from "next/router";
+import navLogo from "../public/assets/nav-logo.png";
 const Navbar = () => {
   const [darkmode, setDarkmode] = useState(false);
   const [nav, setNav] = useState(false);
@@ -79,7 +80,7 @@ const Navbar = () => {
       <div className="flex justify-between item-center w-full h-full px-2  2xl:px-16">
         <Link href="/">
           <Image
-            src="/../public/assets/nav-logo.png"
+            src={navLogo}
             width="80"
             height="30"
             alt="/"

@@ -1,5 +1,17 @@
 import React from "react";
 import Image from "next/image";
+import htmlImg from "../public/assets/html.png";
+import cssImg from "../public/assets/css.png";
+import jsImg from "../public/assets/javascript.png";
+import reactImg from "../public/assets/react.png";
+import githubImg from "../public/assets/github1.png";
+import nodeImg from "../public/assets/node.png";
+import rorImg from "../public/assets/ror.png";
+import nextImg from "../public/assets/nextjs.png";
+import postgresImg from "../public/assets/postgres.png";
+import tailwindImg from "../public/assets/tailwind.png";
+
+
 const Skills = () => {
   return (
     <div id="skills" className="w-full l:h-screen p-2">
@@ -13,7 +25,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center ">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/html.png"
+                  src={htmlImg}
                   width="64"
                   height="64"
                   alt="html"
@@ -28,7 +40,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center ">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/css.png"
+                  src={cssImg}
                   width="64"
                   height="64"
                   alt="css"
@@ -43,7 +55,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center ">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/javascript.png"
+                  src={jsImg}
                   width="64"
                   height="64"
                   alt="javascript"
@@ -58,7 +70,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center ">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/react.png"
+                  src={reactImg}
                   width="64"
                   height="64"
                   alt="react"
@@ -73,7 +85,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center ">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/github1.png"
+                  src={githubImg}
                   width="64"
                   height="64"
                   alt="github"
@@ -88,7 +100,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center ">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/node.png"
+                  src={nodeImg}
                   width="64"
                   height="64"
                   alt="node.js"
@@ -103,7 +115,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center ">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/ror.png"
+                  src={rorImg}
                   width="64"
                   height="64"
                   alt="ruby on rails"
@@ -118,7 +130,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center ">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/nextjs.png"
+                  src={nextImg}
                   width="64"
                   height="64"
                   alt="next.js"
@@ -133,7 +145,22 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center ">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/postgres.png"
+                  src={postgresImg}
+                  width="64"
+                  height="64"
+                  alt="postrgres"
+                />
+              </div>
+              <div className="flex flex-col justify-center items-center ">
+                <h3 className="text-xl">PostgresSQL</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center ">
+              <div className="m-auto">
+                <Image
+                  src={tailwindImg}
                   width="64"
                   height="64"
                   alt="postrgres"
