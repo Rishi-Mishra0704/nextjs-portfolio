@@ -38,8 +38,6 @@ const Navbar = () => {
       }
     }
   }, [router.asPath, darkmode]);
-  
-  
 
   const handleNav = () => {
     setNav(!nav);
@@ -79,12 +77,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between item-center w-full h-full px-2  2xl:px-16">
         <Link href="/">
-          <Image
-            src={navLogo}
-            width="80"
-            height="30"
-            alt="/"
-          />
+          <Image src={navLogo} width="80" height="30" alt="/" />
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
@@ -94,11 +87,11 @@ const Navbar = () => {
             <Link href="/#about" key="about">
               <li className="m-5 text-sm uppercase hover:border-b ">About</li>
             </Link>
-            <Link href="/#skills" key="skills">
-              <li className="m-5 text-sm uppercase hover:border-b ">Skills</li>
-            </Link>
             <Link href="/#projects" key="projects">
               <li className="m-5 text-sm uppercase hover:border-b ">Work</li>
+            </Link>
+            <Link href="/#skills" key="skills">
+              <li className="m-5 text-sm uppercase hover:border-b ">Skills</li>
             </Link>
             <Link href="/#contact" key="contact">
               <li className="m-5 text-sm uppercase hover:border-b ">
@@ -108,9 +101,15 @@ const Navbar = () => {
             <div className="m-5 mr-100">
               <button onClick={() => handleDarkmode()}>
                 {darkmode ? (
-                  <FaSun className={darkmode && " text-orange-500 bg-[#1f2937]" } size={24} />
+                  <FaSun
+                    className={darkmode && " text-orange-500 bg-[#1f2937]"}
+                    size={24}
+                  />
                 ) : (
-                  <FaRegMoon className={!darkmode && "text-[#5651e5] bg-dark-text" } size={24} />
+                  <FaRegMoon
+                    className={!darkmode && "text-[#5651e5] bg-dark-text"}
+                    size={24}
+                  />
                 )}
               </button>
             </div>
@@ -139,14 +138,9 @@ const Navbar = () => {
           <div>
             <div className=" flex w-full items-center justify-between  ">
               <Link onClick={() => setNav(false)} href="/">
-                <Image
-                  src={navLogo}
-                  width="100"
-                  height="50"
-                  alt="/"
-                />
+                <Image src={navLogo} width="100" height="50" alt="/" />
               </Link>
-              
+
               <div
                 onClick={handleNav}
                 className=" rounded-full shadow-lg shadow-gray-400 p-3 m-2 cursor-pointer "
@@ -163,21 +157,42 @@ const Navbar = () => {
           <div className=" p-4 flex flex-col font-semibold">
             <ul className="uppercase">
               <Link href="/" key="home">
-                <li onClick={handleNav} className="m-5 text-sm uppercase hover:border-b ">Home</li>
+                <li
+                  onClick={handleNav}
+                  className="m-5 text-sm uppercase hover:border-b "
+                >
+                  Home
+                </li>
               </Link>
               <Link href="/#about" key="about">
-                <li onClick={handleNav} className="m-5 text-sm uppercase hover:border-b ">About</li>
-              </Link>
-              <Link href="/#skills" key="skills">
-                <li onClick={handleNav} className="m-5 text-sm uppercase hover:border-b ">
-                  Skills
+                <li
+                  onClick={handleNav}
+                  className="m-5 text-sm uppercase hover:border-b "
+                >
+                  About
                 </li>
               </Link>
               <Link href="/#projects" key="projects">
-                <li onClick={handleNav} className="m-5 text-sm uppercase hover:border-b ">Work</li>
+                <li
+                  onClick={handleNav}
+                  className="m-5 text-sm uppercase hover:border-b "
+                >
+                  Work
+                </li>
+              </Link>
+              <Link href="/#skills" key="skills">
+                <li
+                  onClick={handleNav}
+                  className="m-5 text-sm uppercase hover:border-b "
+                >
+                  Skills
+                </li>
               </Link>
               <Link href="/#contact" key="contact">
-                <li onClick={handleNav} className="m-5 text-sm uppercase hover:border-b ">
+                <li
+                  onClick={handleNav}
+                  className="m-5 text-sm uppercase hover:border-b "
+                >
                   Contact me
                 </li>
               </Link>
@@ -204,9 +219,15 @@ const Navbar = () => {
             <div className="m-5 flex mx-auto my-15">
               <button onClick={() => handleDarkmode()}>
                 {darkmode ? (
-                  <FaSun className={darkmode && " text-orange-500 bg-[#1f2937]" } size={30} />
+                  <FaSun
+                    className={darkmode && " text-orange-500 bg-[#1f2937]"}
+                    size={30}
+                  />
                 ) : (
-                  <FaRegMoon className={!darkmode && "text-[#5651e5] bg-dark-text" } size={30} />
+                  <FaRegMoon
+                    className={!darkmode && "text-[#5651e5] bg-dark-text"}
+                    size={30}
+                  />
                 )}
               </button>
             </div>

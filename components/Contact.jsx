@@ -36,23 +36,23 @@ const Contact = () => {
               <p className="uppercase pt-8 ">connect with me</p>
               <div className="flex items-center justify-between py-4 dark:text-teal-500">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200 dark:shadow-teal-500">
-                  <a href="https://www.linkedin.com/in/rishi-mishra-756718257/">
+                  <a href="https://www.linkedin.com/in/rishi-mishra-756718257/" target="_blank">
                     <FaLinkedinIn size={24} />
                   </a>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200 dark:shadow-teal-500">
-                  <a href="https://github.com/Rishi-Mishra0704">
+                  <a href="https://github.com/Rishi-Mishra0704" target="_blank">
                     {" "}
                     <FaGithub size={24} />
                   </a>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200 dark:shadow-teal-500">
-                  <a href="https://twitter.com/RishiMi31357764">
+                  <a href="https://twitter.com/RishiMi31357764" target="_blank">
                     <FaTwitter size={24} />
                   </a>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200 dark:shadow-teal-500">
-                  <a href="https://www.instagram.com/rishi_mishra0704/">
+                  <a href="https://www.instagram.com/rishi_mishra0704/" target="_blank">
                     <FaInstagram size={24} />
                   </a>
                 </div>

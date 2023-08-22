@@ -1,6 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
-import { AiOutlineMail } from "react-icons/ai";
+import { FaGithub, FaLinkedinIn, FaTwitter, FaInstagram } from "react-icons/fa";
 const Main = () => {
   return (
     <div id="home" className=" w-full h-screen text-center">
@@ -25,20 +24,24 @@ const Main = () => {
           </p>
           <div className="flex justify-between items-center max-w-[330px] m-auto py-4 dark:text-teal-400">
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200 dark:shadow-teal-400">
-              <a href="https://www.linkedin.com/in/rishi-mishra-756718257/">
+              <a href="https://www.linkedin.com/in/rishi-mishra-756718257/" target="_blank">
                 <FaLinkedinIn size={24} />
               </a>
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200 dark:shadow-teal-400">
-              <a href="https://github.com/Rishi-Mishra0704">
+              <a href="https://github.com/Rishi-Mishra0704" target="_blank">
                 <FaGithub size={24} />
               </a>
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200 dark:shadow-teal-400">
-              <FaTwitter size={24} />
+              <a href="https://twitter.com/RishiMi31357764" target="_blank">
+                <FaTwitter size={24} />
+              </a>
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200 dark:shadow-teal-400">
-              <AiOutlineMail size={24} />
+              <a href="https://www.instagram.com/rishi_mishra0704/" target="_blank">
+                <FaInstagram size={24} />
+              </a>
             </div>
           </div>
         </div>

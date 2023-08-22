@@ -167,7 +167,7 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col justify-center items-center ">
-                <h3 className="text-xl">PostgresSQL</h3>
+                <h3 className="text-xl">Tailwind</h3>
               </div>
             </div>
           </div>

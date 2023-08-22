@@ -2,9 +2,9 @@ import React from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import Image from "next/legacy/image";
-import budget from "../public/assets/budget.png";
-import carhub from "../public/assets/carhub.png";
-import expense from "../public/assets/expense.png";
+import budget from "../public/assets/budget-buddy.png";
+import carhub from "../public/assets/car-hub.png";
+import expense from "../public/assets/expense-racker.png";
 import conference from "../public/assets/conference.png";
 
 const Project = () => {
@@ -49,10 +49,10 @@ const Project = () => {
             <Image src={conference} />
           </div>
           <div className="mb-10">
-            <a href="https://rishi-mishra0704.github.io/Capstone/index.html">
+            <a href="https://rishi-mishra0704.github.io/Capstone/index.html" target="_blank">
               <button className="h-10 w-40 mx-1 my-8">Live demo</button>
             </a>
-            <a href="https://github.com/Rishi-Mishra0704/Capstone">
+            <a href="https://github.com/Rishi-Mishra0704/Capstone" target="_blank">
               <button className="h-10 w-40 mx-1 my-8">Source Code</button>
             </a>
           </div>
@@ -80,10 +80,10 @@ const Project = () => {
             <Image src={expense} />
           </div>
           <div>
-            <a href="https://expense-racker.onrender.com/">
+            <a href="https://expense-racker.onrender.com/" target="_blank">
               <button className="h-10 w-40 mx-1 my-8">Live demo</button>
             </a>
-            <a href="https://github.com/Rishi-Mishra0704/react-project">
+            <a href="https://github.com/Rishi-Mishra0704/react-project" target="_blank">
               <button className="h-10 w-40 mx-1 my-8">Source Code</button>
             </a>
           </div>
@@ -112,10 +112,10 @@ const Project = () => {
             <Image src={carhub} />
           </div>
           <div>
-            <a href="https://carhub-ochre.vercel.app/">
+            <a href="https://carhub-ochre.vercel.app/" target="_blank">
               <button className="h-10 w-40 mx-1 my-8">Live demo</button>
             </a>
-            <a href="https://github.com/Rishi-Mishra0704/Carhub">
+            <a href="https://github.com/Rishi-Mishra0704/Carhub" target="_blank">
               <button className="h-10 w-40 mx-1 my-8">Source Code</button>
             </a>
           </div>
@@ -146,10 +146,10 @@ const Project = () => {
             <Image src={budget} />
           </div>
           <div>
-            <a href="https://budgetbuddy-vtim.onrender.com">
+            <a href="https://budgetbuddy-vtim.onrender.com" target="_blank">
               <button className="h-10 w-40 mx-1 my-8">Live demo</button>
             </a>
-            <a href="https://github.com/Rishi-Mishra0704/YourBudgetBuddy">
+            <a href="https://github.com/Rishi-Mishra0704/YourBudgetBuddy" target="_blank">
               <button className="h-10 w-40 mx-1 my-8">Source Code</button>
             </a>
           </div>
