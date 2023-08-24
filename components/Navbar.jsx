@@ -33,7 +33,7 @@ const Navbar = () => {
         setNavBg("transparent");
         setLinkColor("#1f2937");
       } else {
-        setNavBg("#ecf0f3");
+        setNavBg("white");
         setLinkColor("#1f2937");
       }
     }

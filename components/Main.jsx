@@ -14,17 +14,19 @@ const Main = () => {
           <h1 className="py-4 text-gray-700 dark:text-[#ecf0f3]">
             A FullStack Web Developer{" "}
           </h1>
-          <p className="py-4 text-gray-600 max-w-[70%] m-auto text-md ">
-            I specialize in fullstack web development My skills enable me to
-            create scalable, high-performance web applications with dynamic user
-            interfaces tailored to specific business and user needs. as well as
-            my expertise in Ruby on Rails and Ruby, I design and develop robust
-            server-side components for seamless and reliable web application
-            functionality.
+          <p className="py-4 text-gray-600 max-w-[70%] m-auto text-lg ">
+            My skills enable me to create scalable, high-performance web
+            applications with dynamic user interfaces tailored to specific
+            business and user needs. Along with my expertise in Ruby on Rails, I
+            design and develop robust server-side components for seamless and
+            reliable web application functionality.
           </p>
           <div className="flex justify-between items-center max-w-[330px] m-auto py-4 dark:text-teal-400">
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200 dark:shadow-teal-400">
-              <a href="https://www.linkedin.com/in/rishi-mishra-756718257/" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/rishi-mishra-756718257/"
+                target="_blank"
+              >
                 <FaLinkedinIn size={24} />
               </a>
             </div>
@@ -39,7 +41,10 @@ const Main = () => {
               </a>
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200 dark:shadow-teal-400">
-              <a href="https://www.instagram.com/rishi_mishra0704/" target="_blank">
+              <a
+                href="https://www.instagram.com/rishi_mishra0704/"
+                target="_blank"
+              >
                 <FaInstagram size={24} />
               </a>
             </div>

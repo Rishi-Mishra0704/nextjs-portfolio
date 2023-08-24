@@ -28,9 +28,12 @@ const Contact = () => {
                 <p className="text-gray-600 dark:text-teal-400">
                   FullStack Developer
                 </p>
-                <p className="py-4">
+                <p className="py-4 flex flex-col">
                   I'm available as a freelancer or full-time positions . Contact
                   me and let's talk
+
+                  <span className="mt-4 font-semibold">Email: rishimishra0404@gmail.com</span>
+                  <span className="my-1 font-semibold">Phone no: +91 7758824909</span>
                 </p>
               </div>
               <p className="uppercase pt-8 ">connect with me</p>

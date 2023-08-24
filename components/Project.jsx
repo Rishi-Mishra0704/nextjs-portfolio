@@ -28,7 +28,7 @@ const Project = () => {
       >
         <div className="grid md:grid-cols-2">
           <div className="">
-            <p className="text-xl tracking-widest text-center uppercase text-[#1f2937] dark:text-[#ecf0f3]">
+            <p className="text-xl my-2 tracking-widest text-center uppercase text-[#1f2937] dark:text-[#ecf0f3]">
               Conference Page
             </p>
             <p className="text-l tracking-widest text-center uppercase text-[#1f2937] dark:text-[#ecf0f3]">
@@ -60,7 +60,7 @@ const Project = () => {
 
         <div className="grid md:grid-cols-2">
           <div className="">
-            <p className="text-xl tracking-widest text-center uppercase text-[#1f2937] dark:text-[#ecf0f3]">
+            <p className="text-xl my-2  tracking-widest text-center uppercase text-[#1f2937] dark:text-[#ecf0f3]">
               Expense Tracker
             </p>
             <p className="text-l tracking-widest text-center uppercase text-[#1f2937] dark:text-[#ecf0f3]">
@@ -91,7 +91,7 @@ const Project = () => {
 
         <div className="grid md:grid-cols-2">
           <div className="">
-            <p className="text-xl tracking-widest text-center uppercase text-[#1f2937] dark:text-[#ecf0f3]">
+            <p className="text-xl my-2  tracking-widest text-center uppercase text-[#1f2937] dark:text-[#ecf0f3]">
               CarHub
             </p>
             <p className="text-l tracking-widest text-center uppercase text-[#1f2937] dark:text-[#ecf0f3]">
@@ -123,7 +123,7 @@ const Project = () => {
 
         <div className="grid md:grid-cols-2">
           <div className="">
-            <p className="text-xl tracking-widest text-center uppercase text-[#1f2937] dark:text-[#ecf0f3]">
+            <p className="text-xl my-2 tracking-widest text-center uppercase text-[#1f2937] dark:text-[#ecf0f3]">
               Your Budget Buddy
             </p>
             <p className="text-l tracking-widest text-center uppercase text-[#1f2937] dark:text-[#ecf0f3]">
