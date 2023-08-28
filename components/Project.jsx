@@ -3,7 +3,7 @@ import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import Image from "next/legacy/image";
 import budget from "../public/assets/budget-buddy.png";
-import carhub from "../public/assets/car-hub.png";
+import carhub from "../public/assets/new-carhub.png";
 import expense from "../public/assets/expense-racker.png";
 import conference from "../public/assets/conference.png";
 
@@ -111,7 +111,7 @@ const Project = () => {
             </ul>
           </div>
           <div className="border-solid border-2 dark:border-teal-400 px-1 py-0.5 m-3">
-            <Image src="https://user-images.githubusercontent.com/41428579/263761874-554c2346-ab62-46f9-a623-c1602ae708ed.png" />
+            <Image src={carhub} />
           </div>
           <div>
             <a href="https://carhub-2.vercel.app/" target="_blank">
