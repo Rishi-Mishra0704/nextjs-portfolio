@@ -105,17 +105,19 @@ const Project = () => {
               <li>1. Nextjs</li>
               <li>2. TailwindCSS</li>
               <li>3. REDUX</li>
-              <li>4. GIT/GITHUB</li>
+              <li>4. Ruby on Rails</li>
+              <li>5. PostgreSQL</li>
+              <li>6. GIT/GITHUB</li>
             </ul>
           </div>
           <div className="border-solid border-2 dark:border-teal-400 px-1 py-0.5 m-3">
-            <Image src={carhub} />
+            <Image src="https://user-images.githubusercontent.com/41428579/263761874-554c2346-ab62-46f9-a623-c1602ae708ed.png" />
           </div>
           <div>
-            <a href="https://carhub-ochre.vercel.app/" target="_blank">
+            <a href="https://carhub-2.vercel.app/" target="_blank">
               <button className="h-10 w-40 mx-1 my-8">Live demo</button>
             </a>
-            <a href="https://github.com/Rishi-Mishra0704/Carhub" target="_blank">
+            <a href="https://github.com/Rishi-Mishra0704/carhub-frontend" target="_blank">
               <button className="h-10 w-40 mx-1 my-8">Source Code</button>
             </a>
           </div>
