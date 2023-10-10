@@ -177,7 +177,7 @@ const Project = () => {
         <div className="grid md:grid-cols-2">
           <div className="">
             <p className="text-xl my-2 tracking-widest text-center uppercase text-[#1f2937] dark:text-[#ecf0f3]">
-              Your Budget Buddy
+              React-resto
             </p>
             <p className="text-l tracking-widest text-center uppercase text-[#1f2937] dark:text-[#ecf0f3]">
               Developed a dynamic food ordering WebApp with API integration,
